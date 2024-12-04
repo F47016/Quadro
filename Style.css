@@ -143,7 +143,9 @@ footer {
 
 @media screen and (max-width: 800px) {
     .coluna {
-        width: 100%;
+        
+        display: flex;
+        width: 75%;
         margin-bottom: 20px;
     }
 
@@ -153,8 +155,18 @@ footer {
         height: auto;
         text-align: center;
         align-items: center;
+    }
 
+    .cabecalho{
 
+        display: flex;
+        justify-content: left;
+        border: none;
+        background-color: none;
+        text-decoration: underline  #ffffff;
+        background: none;
+        color: #ffffff;
+        font-size: 22px;
     }
 
     .pesq input {

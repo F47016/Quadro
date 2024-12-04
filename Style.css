@@ -142,7 +142,8 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-    .coluna {
+
+  .coluna {
         
         display: flex;
         width: 75%;
